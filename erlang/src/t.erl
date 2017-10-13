@@ -13,6 +13,6 @@
 -export([start/0]).
 
 start()->
-  io:format("Hello world!\n~w\n",[layer:madd(2, 2, 5)]),
+  io:format("Hello world!\n~w\n",[layer:msub(2, 6, 55)]),
   L = layer:new(5),
   layer:print(L).
